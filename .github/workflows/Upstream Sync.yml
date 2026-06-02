@@ -23,7 +23,7 @@ jobs:
     - name: Sync upstream changes
       uses: repo-sync/github-sync@v2
       with:
-        source_repo: "https://github.com/bingoguo93/OpenWRT-CI-XG-040G-MD.git"
+        source_repo: "https://github.com/davidtall/DaeWRT-CI.git"
         source_branch: "main"
         destination_branch: "main"
         github_token: ${{ secrets.GITHUB_TOKEN }}
